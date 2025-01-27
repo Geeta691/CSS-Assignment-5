@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(226, 84, 18);
+}
+#gp{
+    text-align: center;
+}
+#gp1{
+    justify-content: center;
+    margin-left: 400px;
+}
+.r1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+.gp{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(37, 227, 16);
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: geeta;
+    margin: 20px;
+}
+@keyframes gee{
+    0%{
+        transform:skewX(30deg);
+    }
+    50%{
+        transform: skewX(-30deg);
+    }
+    100%{
+        transform: skewX(30deg);
+    }
+}
+
+.gp1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: ravi2;
+}
+@keyframes gee2{
+    0%{
+        transform: skewY(20deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{
+        transform: skewY(20deg);
+    }
+
+}
+.gp2{
+width: 100px;
+height: 100px;
+background-color: blueviolet;
+margin: 20px;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-name: ravi3;
+}
+@keyframes gee3{
+    /* 0%{
+        transform: rotate(0deg);
+    } */
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+.gp3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: ravi4;
+    margin: 20px;
+}
+@keyframes gee4{
+    0%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(.5);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.gp4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: ravi5;
+    margin: 20px;
+}
+@keyframes gee5{
+    0%{
+        transform: scaleX(1);
+
+    }
+    50%{
+        transform: scaleX(.5);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+.gp5{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(245, 152, 12);
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: ravi6;
+    margin: 20px;
+}
+@keyframes gee6{
+    50%{
+        transform: rotate(90deg);
+    }
+}
+a{
+    /* color: rgb(14, 14, 2); */
+    font-size: xx-large;
+    margin-left: 450px;
+    text-decoration: none;
+}
